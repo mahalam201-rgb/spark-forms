@@ -18,12 +18,12 @@ export default function Navigation() {
           </Link>
           
           <div className="flex items-center gap-4">
-            <button className="px-6 py-2 text-gray-700 font-medium hover:text-gray-900 transition-colors">
+            <Link href="/dashboard" className="px-6 py-2 text-gray-700 font-medium hover:text-gray-900 transition-colors">
               Sign In
-            </button>
-            <button className="px-6 py-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white rounded-full font-medium hover:shadow-lg transition-shadow">
+            </Link>
+            <Link href="/dashboard" className="px-6 py-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white rounded-full font-medium hover:shadow-lg transition-shadow">
               Get Started
-            </button>
+            </Link>
           </div>
         </div>
       </div>
